@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0088b7;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header h1{
+    color: white;
+    font-size: 30px;
+  }
+  .organizations{
+    display: flex;
+  }
+  
+  .organization-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Optional: Adds spacing between cards */
+  }
+  
+  .organization-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .organization-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .organization-link {
+    color: #0000EE;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .view-more-button {
+    background-color: rgb(235, 42, 84);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-more-button:hover {
+    background-color: #45a049;
+  }
+  #heshima{
+    width: 300px;
+    height: 300px;
+  }
+
+  .organisations2{
+    display: flex;
+  }
+  #UN{
+    width: 335px;
+    height: 350px;
+    }
+
+#UNO{
+    width: 335px;
+    height: 340PX;
+}
